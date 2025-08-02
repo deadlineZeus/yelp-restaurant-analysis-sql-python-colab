@@ -23,7 +23,7 @@ In today’s competitive restaurant landscape, understanding customer behavior i
 
 ---
 
-<details open>
+<details>
 <summary id="research-objectives"><strong>Research Objectives</strong></summary>
 
 - Quantify the correlation between user engagement (reviews, tips, check-ins) and restaurant ratings or review counts.
