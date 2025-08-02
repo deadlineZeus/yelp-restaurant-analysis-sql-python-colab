@@ -32,6 +32,8 @@ In today’s competitive restaurant landscape, understanding customer behavior i
 
 </details>
 
+---
+
 <details>
 <summary id="hypotheses"><strong>Hypotheses</strong></summary>
 
@@ -40,6 +42,8 @@ In today’s competitive restaurant landscape, understanding customer behavior i
 - Consistent engagement over time reflects higher customer satisfaction and long-term success.
 
 </details>
+
+---
 
 <details>
 <summary id="dataset-overview"><strong>Dataset Overview</strong></summary>
@@ -56,6 +60,8 @@ These datasets are large in scale, with some files reaching 3GB and containing h
 
 </details>
 
+---
+
 <details>
 <summary id="data-loading-and-issues"><strong>Data Loading and Issues</strong></summary>
 
@@ -69,6 +75,8 @@ This approach ensured system stability and data completeness.
 
 </details>
 
+---
+
 <details>
 <summary id="entity-relationship-diagram"><strong>Entity-Relationship Diagram</strong></summary>
 
@@ -77,6 +85,8 @@ The relationships between tables were established with appropriate foreign key c
 ![Entity Relationship Diagram](assets/entity_relationship_diagram.png)
 
 </details>
+
+---
 
 <details>
 <summary id="technologies-used"><strong>Technologies Used</strong></summary>
@@ -93,6 +103,8 @@ The relationships between tables were established with appropriate foreign key c
 
 </details>
 
+---
+
 <details>
 <summary id="general-insights"><strong>General Insights</strong></summary>
 
@@ -106,6 +118,8 @@ The relationships between tables were established with appropriate foreign key c
 
 </details>
 
+---
+
 <details>
 <summary id="strategic-insights"><strong>Strategic Insights</strong></summary>
 
@@ -117,6 +131,8 @@ The relationships between tables were established with appropriate foreign key c
 - Time-based analysis shows engagement peaks between November and March, identifying seasonal marketing opportunities.
 
 </details>
+
+---
 
 <details>
 <summary id="recommendations"><strong>Recommendations</strong></summary>
@@ -130,6 +146,8 @@ The relationships between tables were established with appropriate foreign key c
 - For underperforming locations, apply localized sentiment and engagement metrics to diagnose service gaps.
 
 </details>
+
+---
 
 <details>
 <summary id="folder-structure"><strong>Folder Structure</strong></summary>
@@ -174,7 +192,11 @@ yelp-restaurant-analysis-sql-python-colab/
     └── final_presentation.pptx
 ```
 
-</details> <details> <summary id="deliverables"><strong>Deliverables</strong></summary>
+</details> 
+
+---
+
+<details> <summary id="deliverables"><strong>Deliverables</strong></summary>
 Analysis and database creation notebooks (analysis/, data-load/)
 
 PowerPoint and PDF presentation (reports/)
@@ -192,12 +214,21 @@ Build predictive models to identify potential high-performing locations or user 
 
 Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
 
-</details> <details> <summary id="acknowledgments"><strong>Acknowledgments</strong></summary>
+</details> 
+
+---
+
+<details> <summary id="acknowledgments"><strong>Acknowledgments</strong></summary>
 Yelp for the Open Dataset: https://www.yelp.com/dataset
 
 Open-source Python libraries and their contributors
 
-</details> <details> <summary id="contact"><strong>Contact</strong></summary>
+</details> 
+
+---
+
+<details> <summary id="contact"><strong>Contact</strong></summary>
+    
 Rajdeep Ray
 Email: rajdeepray.c48.it@gmail.com
 Phone: +91 7076918307
