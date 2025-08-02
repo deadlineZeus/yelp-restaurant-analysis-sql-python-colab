@@ -56,10 +56,6 @@ This project uses the Yelp Open Dataset, comprising five key JSON files:
 - `tip`: Short, timestamped user tips with like counts.
 - `checkin`: Timestamps indicating real-world visits to a restaurant.
 
-These datasets are large in scale, with some files reaching 3GB and also 5GB containing hundreds of thousands of records. We had to write a Python code as to create multiple chunk size files out of a single JSON file just as to make sure the system does not cresh during runtime because of insuffucent resources. The code is available in data-load folder.
-
-Later on, we uploaded the files into database and decided to not host the data into local directory so as to make sure the heavy-lifting is done by the database which is suitable for handling large amount of data.
-
 </details>
 
 ---
@@ -67,12 +63,13 @@ Later on, we uploaded the files into database and decided to not host the data i
 <details>
 <summary id="data-loading-and-issues"><strong>Data Loading and Issues</strong></summary>
 
-Due to the scale of the data, full in-memory loading was impractical. To manage resource usage:
+Due to the scale of the data, some files even reaching the size of 3.2Gb and even 5Gb,  full in-memory loading was impractical. To manage resource usage:
 
 - Each JSON file was chunked using a custom Python script (`chunking-up-large-json-files-code.py`) to avoid crashes.
 - Cleaned chunks were uploaded incrementally into a normalized SQLite3 database.
 - SQL queries were used throughout the analysis to selectively retrieve relevant data subsets.
 
+The code is available in data-load folder. 
 This approach ensured system stability and data completeness.
 
 </details>
