@@ -4,8 +4,7 @@
 
 In today’s competitive restaurant landscape, understanding customer behavior is critical—not just to stay afloat, but to grow and stand out. This project explores how various forms of user engagement on Yelp (reviews, tips, check-ins, sentiment, elite contributions) correlate with restaurant success metrics. The analysis aims to uncover data-backed strategies for enhancing customer satisfaction, improving engagement, and identifying high-potential locations for business expansion. Rather than fixing a failing business, the goal is to empower decision-making using real-world user behavior.
 
-<details>
-<summary>Table of Contents</summary>
+## Table of Contents
 
 - [Research Objectives](#research-objectives)
 - [Hypotheses](#hypotheses)
@@ -21,21 +20,29 @@ In today’s competitive restaurant landscape, understanding customer behavior i
 - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
-</details>
 
-## Research Objectives
+---
+
+<details open>
+<summary id="research-objectives"><strong>Research Objectives</strong></summary>
 
 - Quantify the correlation between user engagement (reviews, tips, check-ins) and restaurant ratings or review counts.
 - Analyze the impact of feedback sentiment ("useful", "funny", "cool") on average star ratings and user engagement.
 - Assess whether sustained engagement over time is a more reliable indicator of long-term success than short bursts of activity.
 
-## Hypotheses
+</details>
+
+<details>
+<summary id="hypotheses"><strong>Hypotheses</strong></summary>
 
 - Increased user interaction leads to greater visibility and potentially better ratings.
 - Feedback sentiment metrics affect review visibility and overall performance.
 - Consistent engagement over time reflects higher customer satisfaction and long-term success.
 
-## Dataset Overview
+</details>
+
+<details>
+<summary id="dataset-overview"><strong>Dataset Overview</strong></summary>
 
 This project uses the Yelp Open Dataset, comprising five key JSON files:
 
@@ -47,7 +54,10 @@ This project uses the Yelp Open Dataset, comprising five key JSON files:
 
 These datasets are large in scale, with some files reaching 3GB and containing hundreds of thousands of records. Over 150,000 businesses are recorded in total, of which 35,000 are active restaurants.
 
-## Data Loading and Issues
+</details>
+
+<details>
+<summary id="data-loading-and-issues"><strong>Data Loading and Issues</strong></summary>
 
 Due to the scale of the data, full in-memory loading was impractical. To manage resource usage:
 
@@ -57,28 +67,34 @@ Due to the scale of the data, full in-memory loading was impractical. To manage 
 
 This approach ensured system stability and data completeness.
 
-## Entity-Relationship Diagram
+</details>
+
+<details>
+<summary id="entity-relationship-diagram"><strong>Entity-Relationship Diagram</strong></summary>
 
 The relationships between tables were established with appropriate foreign key constraints. The five main entities were modeled to reflect realistic business logic.
 
 ![Entity Relationship Diagram](assets/entity_relationship_diagram.png)
 
-## Technologies Used
-
-| Tool            | Purpose                                      |
-|------------------|----------------------------------------------|
-| Python           | Primary analysis and data transformation     |
-| SQLite3          | Relational database for scalable querying    |
-| Pandas, NumPy    | Data wrangling and statistical aggregation   |
-| Matplotlib, Seaborn | Visual analytics and plotting           |
-| Folium, Geopy    | Geospatial visualization and mapping         |
-| datetime         | Time-based filtering and trend identification |
-| IPython.display  | Display enhancements for notebooks           |
-
-## General Insights
+</details>
 
 <details>
-<summary>Click to expand</summary>
+<summary id="technologies-used"><strong>Technologies Used</strong></summary>
+
+| Tool               | Purpose                                      |
+|--------------------|----------------------------------------------|
+| Python             | Primary analysis and data transformation     |
+| SQLite3            | Relational database for scalable querying    |
+| Pandas, NumPy      | Data wrangling and statistical aggregation   |
+| Matplotlib, Seaborn| Visual analytics and plotting                |
+| Folium, Geopy      | Geospatial visualization and mapping         |
+| datetime           | Time-based filtering and trend identification|
+| IPython.display    | Display enhancements for notebooks           |
+
+</details>
+
+<details>
+<summary id="general-insights"><strong>General Insights</strong></summary>
 
 - Restaurants rated 4.0 stars show the highest user engagement.
 - User activity (reviews, check-ins, tips) tends to increase with ratings, but declines for businesses rated 4.5 or 5.0.
@@ -90,10 +106,8 @@ The relationships between tables were established with appropriate foreign key c
 
 </details>
 
-## Strategic Insights
-
 <details>
-<summary>Click to expand</summary>
+<summary id="strategic-insights"><strong>Strategic Insights</strong></summary>
 
 - Businesses with more “useful”, “funny”, or “cool” reviews attract significantly higher engagement.
 - Engagement metrics—reviews, check-ins, and tips—are strongly correlated.
@@ -104,10 +118,8 @@ The relationships between tables were established with appropriate foreign key c
 
 </details>
 
-## Recommendations
-
 <details>
-<summary>Click to expand</summary>
+<summary id="recommendations"><strong>Recommendations</strong></summary>
 
 - Focus on consistent engagement strategies that foster user reviews and tips across time.
 - Launch promotions and allocate staff strategically during high-engagement periods (4 PM–1 AM and November–March).
@@ -119,73 +131,77 @@ The relationships between tables were established with appropriate foreign key c
 
 </details>
 
-## Folder Structure
+<details>
+<summary id="folder-structure"><strong>Folder Structure</strong></summary>
 
 ```bash
+yelp-restaurant-analysis-sql-python-colab/
 │
 ├── README.md
+│
 ├── analysis/
-│ └── analysis.ipynb
+│   └── analysis.ipynb
+│
 ├── assets/
-│ └── entity_relationship_diagram.png
+│   └── entity_relationship_diagram.png
+│
 ├── data-load/
-│ ├── chunking-up-large-json-files-code.py
-│ ├── database-table-creation.ipynb
-│ └── table_creation_query.sql
+│   ├── chunking-up-large-json-files-code.py
+│   ├── database-table-creation.ipynb
+│   └── table_creation_query.sql
+│
 ├── data-samples/
-│ ├── business_sample.json
-│ ├── checkin_sample.json
-│ ├── review_sample.json
-│ └── tips_sample.json
+│   ├── business_sample.json
+│   ├── checkin_sample.json
+│   ├── review_sample.json
+│   └── tips_sample.json
+│
 ├── source/
-│ └── yelp_original_dataset_url.txt
+│   └── yelp_original_dataset_url.txt
+│
 ├── visuals/
-│ ├── avg_engagement_based_on_rating.png
-│ ├── elite_vs_non_elite.png
-│ ├── engagement_vs_rating.png
-│ ├── reviews_tips_vs_success.png
-│ ├── seasonal_decompose.png
-│ ├── seasonal_trends.png
-│ ├── tip_engagement_over_time.png
-│ └── tip_review_checkin_engagement.png
+│   ├── avg_engagement_based_on_rating.png
+│   ├── elite_vs_non_elite.png
+│   ├── engagement_vs_rating.png
+│   ├── reviews_tips_vs_success.png
+│   ├── seasonal_decompose.png
+│   ├── seasonal_trends.png
+│   ├── tip_engagement_over_time.png
+│   └── tip_review_checkin_engagement.png
+│
 └── reports/
-├── final_presentation.pdf
-└── final_presentation.pptx
+    ├── final_presentation.pdf
+    └── final_presentation.pptx
 ```
 
-## Deliverables
+</details> <details> <summary id="deliverables"><strong>Deliverables</strong></summary>
+Analysis and database creation notebooks (analysis/, data-load/)
 
-<details>
-<summary>Click to expand</summary>
+PowerPoint and PDF presentation (reports/)
 
-- Analysis and database creation notebooks (`analysis/`, `data-load/`)
-- PowerPoint and PDF presentation (`reports/`)
-- SQL scripts and ER diagram (`data-load/`, `assets/`)
-- Saved data visualizations (`visuals/`)
-- Sample JSON data for demonstration and table creation (`data-samples/`)
+SQL scripts and ER diagram (data-load/, assets/)
 
-</details>
+Saved data visualizations (visuals/)
 
-## Future Work
+Sample JSON data for demonstration and table creation (data-samples/)
 
-<details>
-<summary>Click to expand</summary>
+</details> <details> <summary id="future-work"><strong>Future Work</strong></summary>
+Apply natural language processing to understand review sentiment and patterns.
 
-- Apply natural language processing to understand review sentiment and patterns.
-- Build predictive models to identify potential high-performing locations or user churn risks.
-- Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
+Build predictive models to identify potential high-performing locations or user churn risks.
 
-</details>
+Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
 
-## Acknowledgments
+</details> <details> <summary id="acknowledgments"><strong>Acknowledgments</strong></summary>
+Yelp for the Open Dataset: https://www.yelp.com/dataset
 
-- Yelp for the Open Dataset: https://www.yelp.com/dataset
-- Open-source Python libraries and their contributors
+Open-source Python libraries and their contributors
 
-## Contact
-
-**Rajdeep Ray**  
-Email: rajdeepray.c48.it@gmail.com  
-Phone: +91 7076918307  
-GitHub: https://github.com/deadlineZeus  
+</details> <details> <summary id="contact"><strong>Contact</strong></summary>
+Rajdeep Ray
+Email: rajdeepray.c48.it@gmail.com
+Phone: +91 7076918307
+GitHub: https://github.com/deadlineZeus
 LinkedIn: https://www.linkedin.com/in/rajdeep-ray-3616501b6/
+
+</details> 
