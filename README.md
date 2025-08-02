@@ -56,7 +56,9 @@ This project uses the Yelp Open Dataset, comprising five key JSON files:
 - `tip`: Short, timestamped user tips with like counts.
 - `checkin`: Timestamps indicating real-world visits to a restaurant.
 
-These datasets are large in scale, with some files reaching 3GB and containing hundreds of thousands of records. Over 150,000 businesses are recorded in total, of which 35,000 are active restaurants.
+These datasets are large in scale, with some files reaching 3GB and containing hundreds of thousands of records. We had to write a Python code as to create multiple chunk size files out of a single JSON file just as to make sure the system does not cresh during runtime because of insuffucent resources. The code is available in data-load folder.
+
+Later on, we uploaded the files into database and decided to not host the data into local directory so as to make sure the heavy-lifting is done by the database which is suitable for handling large amount of data.
 
 </details>
 
