@@ -1,1 +1,191 @@
-# yelp-restaurant-analysis-sql-python-colab
+# Yelp Restaurant Success Analysis: Data-Driven Strategies for Growth
+
+## Project Overview
+
+In today’s competitive restaurant landscape, understanding customer behavior is critical—not just to stay afloat, but to grow and stand out. This project explores how various forms of user engagement on Yelp (reviews, tips, check-ins, sentiment, elite contributions) correlate with restaurant success metrics. The analysis aims to uncover data-backed strategies for enhancing customer satisfaction, improving engagement, and identifying high-potential locations for business expansion. Rather than fixing a failing business, the goal is to empower decision-making using real-world user behavior.
+
+<details>
+<summary>Table of Contents</summary>
+
+- [Research Objectives](#research-objectives)
+- [Hypotheses](#hypotheses)
+- [Dataset Overview](#dataset-overview)
+- [Data Loading and Issues](#data-loading-and-issues)
+- [Entity-Relationship Diagram](#entity-relationship-diagram)
+- [Technologies Used](#technologies-used)
+- [General Insights](#general-insights)
+- [Strategic Insights](#strategic-insights)
+- [Recommendations](#recommendations)
+- [Folder Structure](#folder-structure)
+- [Deliverables](#deliverables)
+- [Future Work](#future-work)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+</details>
+
+## Research Objectives
+
+- Quantify the correlation between user engagement (reviews, tips, check-ins) and restaurant ratings or review counts.
+- Analyze the impact of feedback sentiment ("useful", "funny", "cool") on average star ratings and user engagement.
+- Assess whether sustained engagement over time is a more reliable indicator of long-term success than short bursts of activity.
+
+## Hypotheses
+
+- Increased user interaction leads to greater visibility and potentially better ratings.
+- Feedback sentiment metrics affect review visibility and overall performance.
+- Consistent engagement over time reflects higher customer satisfaction and long-term success.
+
+## Dataset Overview
+
+This project uses the Yelp Open Dataset, comprising five key JSON files:
+
+- `business`: Restaurant metadata including location, star rating, categories, and review count.
+- `review`: Full user reviews with star ratings, timestamps, and sentiment metrics.
+- `user`: User metadata including elite status, total reviews, and fan count.
+- `tip`: Short, timestamped user tips with like counts.
+- `checkin`: Timestamps indicating real-world visits to a restaurant.
+
+These datasets are large in scale, with some files reaching 3GB and containing hundreds of thousands of records. Over 150,000 businesses are recorded in total, of which 35,000 are active restaurants.
+
+## Data Loading and Issues
+
+Due to the scale of the data, full in-memory loading was impractical. To manage resource usage:
+
+- Each JSON file was chunked using a custom Python script (`chunking-up-large-json-files-code.py`) to avoid crashes.
+- Cleaned chunks were uploaded incrementally into a normalized SQLite3 database.
+- SQL queries were used throughout the analysis to selectively retrieve relevant data subsets.
+
+This approach ensured system stability and data completeness.
+
+## Entity-Relationship Diagram
+
+The relationships between tables were established with appropriate foreign key constraints. The five main entities were modeled to reflect realistic business logic.
+
+![Entity Relationship Diagram](assets/entity_relationship_diagram.png)
+
+## Technologies Used
+
+| Tool            | Purpose                                      |
+|------------------|----------------------------------------------|
+| Python           | Primary analysis and data transformation     |
+| SQLite3          | Relational database for scalable querying    |
+| Pandas, NumPy    | Data wrangling and statistical aggregation   |
+| Matplotlib, Seaborn | Visual analytics and plotting           |
+| Folium, Geopy    | Geospatial visualization and mapping         |
+| datetime         | Time-based filtering and trend identification |
+| IPython.display  | Display enhancements for notebooks           |
+
+## General Insights
+
+<details>
+<summary>Click to expand</summary>
+
+- Restaurants rated 4.0 stars show the highest user engagement.
+- User activity (reviews, check-ins, tips) tends to increase with ratings, but declines for businesses rated 4.5 or 5.0.
+- Peak user activity hours are from 4 PM to 1 AM.
+- Out of 150k businesses, 35k are open restaurants.
+- Average star rating is 3.52 and average review count is 104; after removing outliers, the average review count drops to 55.
+- Elite users, though fewer in number, contribute a disproportionately high number of reviews.
+- Review counts alone are not a reliable indicator of overall success.
+
+</details>
+
+## Strategic Insights
+
+<details>
+<summary>Click to expand</summary>
+
+- Businesses with more “useful”, “funny”, or “cool” reviews attract significantly higher engagement.
+- Engagement metrics—reviews, check-ins, and tips—are strongly correlated.
+- Top cities by success score include Philadelphia, Tampa, Tucson, and Indianapolis, based on combined metrics of rating, volume, and consistency.
+- Review volume and user engagement do not necessarily correlate with perfect 5.0 ratings, suggesting saturation or selective audiences.
+- Elite users significantly influence visibility and customer trust, making them important stakeholders for brand advocacy.
+- Time-based analysis shows engagement peaks between November and March, identifying seasonal marketing opportunities.
+
+</details>
+
+## Recommendations
+
+<details>
+<summary>Click to expand</summary>
+
+- Focus on consistent engagement strategies that foster user reviews and tips across time.
+- Launch promotions and allocate staff strategically during high-engagement periods (4 PM–1 AM and November–March).
+- Develop outreach programs or loyalty incentives for elite users.
+- Target cities with high success scores for expansion or new store openings.
+- Use detailed feedback analysis to improve service quality and customer experience.
+- Encourage review formats that prompt “useful”, “funny”, and “cool” votes.
+- For underperforming locations, apply localized sentiment and engagement metrics to diagnose service gaps.
+
+</details>
+
+## Folder Structure
+
+```bash
+│
+├── README.md
+├── analysis/
+│ └── analysis.ipynb
+├── assets/
+│ └── entity_relationship_diagram.png
+├── data-load/
+│ ├── chunking-up-large-json-files-code.py
+│ ├── database-table-creation.ipynb
+│ └── table_creation_query.sql
+├── data-samples/
+│ ├── business_sample.json
+│ ├── checkin_sample.json
+│ ├── review_sample.json
+│ └── tips_sample.json
+├── source/
+│ └── yelp_original_dataset_url.txt
+├── visuals/
+│ ├── avg_engagement_based_on_rating.png
+│ ├── elite_vs_non_elite.png
+│ ├── engagement_vs_rating.png
+│ ├── reviews_tips_vs_success.png
+│ ├── seasonal_decompose.png
+│ ├── seasonal_trends.png
+│ ├── tip_engagement_over_time.png
+│ └── tip_review_checkin_engagement.png
+└── reports/
+├── final_presentation.pdf
+└── final_presentation.pptx
+```
+
+## Deliverables
+
+<details>
+<summary>Click to expand</summary>
+
+- Analysis and database creation notebooks (`analysis/`, `data-load/`)
+- PowerPoint and PDF presentation (`reports/`)
+- SQL scripts and ER diagram (`data-load/`, `assets/`)
+- Saved data visualizations (`visuals/`)
+- Sample JSON data for demonstration and table creation (`data-samples/`)
+
+</details>
+
+## Future Work
+
+<details>
+<summary>Click to expand</summary>
+
+- Apply natural language processing to understand review sentiment and patterns.
+- Build predictive models to identify potential high-performing locations or user churn risks.
+- Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
+
+</details>
+
+## Acknowledgments
+
+- Yelp for the Open Dataset: https://www.yelp.com/dataset
+- Open-source Python libraries and their contributors
+
+## Contact
+
+**Rajdeep Ray**  
+Email: rajdeepray.c48.it@gmail.com  
+Phone: +91 7076918307  
+GitHub: https://github.com/deadlineZeus  
+LinkedIn: https://www.linkedin.com/in/rajdeep-ray-3616501b6/
