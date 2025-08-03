@@ -218,13 +218,14 @@ Sample JSON data for demonstration and table creation (data-samples/)
 
 - Build predictive models to identify potential high-performing locations or user churn risks.
 
-Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
+- Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
 
 </details> 
 
 ---
 
 <details> <summary id="acknowledgments"><strong>Acknowledgments</strong></summary>
+    
 - Yelp for the open Dataset: https://www.yelp.com/dataset
 
 - Open-source Python libraries and their contributors
