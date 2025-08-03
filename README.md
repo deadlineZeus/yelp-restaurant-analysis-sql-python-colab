@@ -172,9 +172,9 @@ yelp-restaurant-analysis-sql-python-colab/
 │   ├── business_sample.json
 │   ├── checkin_sample.json
 │   ├── review_sample.json
-│   └── tips_sample.json
+│   ├── tips_sample.json
 │   └── user_sample.json
-|
+│
 ├── source/
 │   └── yelp_original_dataset_url.txt
 │
