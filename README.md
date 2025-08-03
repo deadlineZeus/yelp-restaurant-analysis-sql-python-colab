@@ -206,7 +206,11 @@ Saved data visualizations (visuals/)
 
 Sample JSON data for demonstration and table creation (data-samples/)
 
-</details> <details> <summary id="future-work"><strong>Future Work</strong></summary>
+</details> 
+
+---
+
+<details> <summary id="future-work"><strong>Future Work</strong></summary>
 Apply natural language processing to understand review sentiment and patterns.
 
 Build predictive models to identify potential high-performing locations or user churn risks.
