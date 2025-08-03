@@ -235,9 +235,13 @@ Open-source Python libraries and their contributors
 <details> <summary id="contact"><strong>Contact</strong></summary>
     
 Rajdeep Ray
+
 Email: rajdeepray.c48.it@gmail.com
+
 Phone: +91 7076918307
+
 GitHub: https://github.com/deadlineZeus
+
 LinkedIn: https://www.linkedin.com/in/rajdeep-ray-3616501b6/
 
 </details> 
