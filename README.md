@@ -56,6 +56,7 @@ This project uses the Yelp Open Dataset, comprising five key JSON files:
 - `tip`: Short, timestamped user tips with like counts.
 - `checkin`: Timestamps indicating real-world visits to a restaurant.
 
+Sample JSON files, with limited number of rows os each table is available in the data-samples folder.
 </details>
 
 ---
