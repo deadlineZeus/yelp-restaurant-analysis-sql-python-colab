@@ -213,10 +213,10 @@ Sample JSON data for demonstration and table creation (data-samples/)
 
 <details> <summary id="future-work"><strong>Future Work</strong></summary>
     
-Apply natural language processing to understand review sentiment and patterns.
+- Apply natural language processing to understand review sentiment and patterns.
     
 
-Build predictive models to identify potential high-performing locations or user churn risks.
+- Build predictive models to identify potential high-performing locations or user churn risks.
 
 Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-time business decision support.
 
@@ -225,9 +225,9 @@ Develop an interactive dashboard (e.g., using Streamlit or Power BI) for real-ti
 ---
 
 <details> <summary id="acknowledgments"><strong>Acknowledgments</strong></summary>
-Yelp for the Open Dataset: https://www.yelp.com/dataset
+- Yelp for the open Dataset: https://www.yelp.com/dataset
 
-Open-source Python libraries and their contributors
+- Open-source Python libraries and their contributors
 
 </details> 
 
