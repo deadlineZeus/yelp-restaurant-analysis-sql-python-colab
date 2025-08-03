@@ -6,7 +6,9 @@
 
 ## Project Overview
 
-In today’s competitive restaurant landscape, understanding customer behavior is critical—not just to stay afloat, but to grow and stand out. This project explores how various forms of user engagement on Yelp (reviews, tips, check-ins, sentiment, elite contributions) correlate with restaurant success metrics. The analysis aims to uncover data-backed strategies for enhancing customer satisfaction, improving engagement, and identifying high-potential locations for business expansion. Rather than fixing a failing business, the goal is to empower decision-making using real-world user behavior.
+In today’s competitive restaurant landscape, understanding customer behavior is critical—not just to stay afloat, but to grow and stand out. This project explores how various forms of user engagement on Yelp (reviews, tips, check-ins, sentiment, elite contributions) correlate with restaurant success metrics. 
+
+The analysis aims to uncover data-backed strategies for enhancing customer satisfaction, improving engagement, and identifying high-potential locations for business expansion. Rather than fixing a failing business, the goal is to empower decision-making using real-world user behavior.
 
 ## Table of Contents
 
