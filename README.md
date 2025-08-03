@@ -48,7 +48,7 @@ In today’s competitive restaurant landscape, understanding customer behavior i
 <details>
 <summary id="dataset-overview"><strong>Dataset Overview</strong></summary>
 
-This project uses the Yelp Open Dataset, comprising five key JSON files:
+This dataset is a subset of Yelp and has information about businesses across 8 metropolitan areas in the USA and Canada. This project uses the Yelp Open Dataset, comprising five key JSON files:
 
 - `business`: Restaurant metadata including location, star rating, categories, and review count.
 - `review`: Full user reviews with star ratings, timestamps, and sentiment metrics.
