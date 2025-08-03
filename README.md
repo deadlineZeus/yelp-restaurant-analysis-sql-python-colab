@@ -196,6 +196,7 @@ yelp-restaurant-analysis-sql-python-colab/
 │   └── analysis.ipynb
 │
 ├── assets/
+│   ├── yelp_logo.png
 │   └── entity_relationship_diagram.png
 │
 ├── data-load/
