@@ -254,15 +254,15 @@ yelp-restaurant-analysis-sql-python-colab/
 
 <details> <summary id="deliverables"><strong>Deliverables</strong></summary>
 
-Analysis and database creation notebooks (analysis/, data-load/)
+- Analysis and database creation notebooks (analysis/, data-load/)
 
-PowerPoint and PDF presentation (reports/)
+- PowerPoint and PDF presentation (reports/)
 
-SQL scripts and ER diagram (data-load/, assets/)
+- SQL scripts and ER diagram (data-load/, assets/)
 
-Saved data visualizations (visuals/)
+- Saved data visualizations (visuals/)
 
-Sample JSON data for demonstration and table creation (data-samples/)
+- Sample JSON data for demonstration and table creation (data-samples/)
 
 </details> 
 
