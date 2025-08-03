@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/yelp_logo.png" alt="Yelp Logo" width="150"/>
+</p>
+
 # Yelp Restaurant Success Analysis: Data-Driven Strategies for Growth
 
 ## Project Overview
