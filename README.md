@@ -108,6 +108,8 @@ The relationships between tables were established with appropriate foreign key c
 <details>
 <summary><strong>General Insights</strong></summary>
 
+(**_Click on them to see the data behind_**)
+
 <details>
 <summary>• Restaurants rated 4.0 stars show the highest user engagement.</summary>
 <img src="visuals/highlighted_p1.png" alt="Restaurants with 4.0 Stars Engagement" width="600" />
@@ -145,7 +147,7 @@ The relationships between tables were established with appropriate foreign key c
 
 <details>
 <summary>• Review counts alone are not a reliable indicator of overall success.</summary>
-<img src="visuals/highlighted_p7.png" alt="Review Count vs Success" width="600" />
+<img src="visuals/highlighted_p9.png" alt="Review Count vs Success" width="600" />
 </details>
 
 </details>
