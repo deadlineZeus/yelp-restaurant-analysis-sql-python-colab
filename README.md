@@ -106,17 +106,55 @@ The relationships between tables were established with appropriate foreign key c
 ---
 
 <details>
-<summary id="general-insights"><strong>General Insights</strong></summary>
+<summary><strong>General Insights</strong></summary>
 
-- Restaurants rated 4.0 stars show the highest user engagement.
-- User activity (reviews, check-ins, tips) tends to increase with ratings, but declines for businesses rated 4.5 or 5.0.
-- Peak user activity hours are from 4 PM to 1 AM.
-- Out of 150k businesses, 35k are open restaurants.
-- Average star rating is 3.52 and average review count is 104; after removing outliers, the average review count drops to 55.
-- Elite users, though fewer in number, contribute a disproportionately high number of reviews.
-- Review counts alone are not a reliable indicator of overall success.
+<details>
+<summary>• Restaurants rated 4.0 stars show the highest user engagement.</summary>
+<img src="visuals/highlighted_p1.png" alt="Restaurants with 4.0 Stars Engagement" width="600" />
+</details>
+
+<details>
+<summary>• User activity (reviews, check-ins, tips) tends to increase with ratings, but declines for businesses rated 4.5 or 5.0.</summary>
+<img src="visuals/highlighted_p2.png" alt="Engagement vs Higher Ratings" width="600" />
+</details>
+
+<details>
+<summary>• Peak user activity hours are from 4 PM to 1 AM.</summary>
+<img src="visuals/highlighted_p3.png" alt="Peak Activity Hours" width="600" />
+</details>
+
+<details>
+<summary>• Out of 150k businesses, 35k are open restaurants.</summary>
+<img src="visuals/highlighted_p4.png" alt="Open Restaurants Overview" width="600" />
+</details>
+
+<details>
+<summary>• Average star rating is 3.52 and average review count is 104; after removing outliers, the average review count drops to 55.</summary>
+<img src="visuals/highlighted_p5.png" alt="Average Rating and Review Counts" width="600" />
+</details>
+
+<details>
+<summary>• Elite users, though fewer in number, contribute a disproportionately high number of reviews.</summary>
+<img src="visuals/highlighted_p6.png" alt="Elite User Contribution" width="600" />
+</details>
+
+<details>
+<summary>• Review counts alone are not a reliable indicator of overall success.</summary>
+<img src="visuals/highlighted_p7.png" alt="Review Count vs Success" width="600" />
+</details>
+
+<details>
+<summary>• Engagement metrics—reviews, tips, and check-ins—are strongly correlated with each other.</summary>
+<img src="visuals/highlighted_p8.png" alt="Engagement Metric Correlation" width="600" />
+</details>
+
+<details>
+<summary>• Elite users help boost both visibility and trust, influencing performance metrics.</summary>
+<img src="visuals/highlighted_p9.png" alt="Elite Influence on Success" width="600" />
+</details>
 
 </details>
+
 
 ---
 
