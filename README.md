@@ -125,12 +125,12 @@ The relationships between tables were established with appropriate foreign key c
 
 <details>
 <summary>• Out of 150k businesses, 35k are open restaurants.</summary>
-<img src="visuals/highlighted_p4.png" alt="Open Restaurants Overview" width="600" />
+<img src="visuals/highlighted_p8.png" alt="Open Restaurants Overview" width="600" />
 </details>
 
 <details>
 <summary>• Average star rating is 3.52 and average review count is 104; after removing outliers, it drops to 55.</summary>
-<img src="visuals/highlighted_p5.png" alt="Average Rating and Review Counts" width="600" />
+<img src="visuals/highlighted_p6.png" alt="Average Rating and Review Counts" width="600" />
 </details>
 
 <details>
