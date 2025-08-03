@@ -108,7 +108,7 @@ The relationships between tables were established with appropriate foreign key c
 <details>
 <summary><strong>General Insights</strong></summary>
 
-(**_Click on them to see the data behind_**)
+**_(Click to see the data behind)_**
 
 <details>
 <summary>• Restaurants rated 4.0 stars show the highest user engagement.</summary>
