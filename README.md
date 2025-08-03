@@ -143,16 +143,6 @@ The relationships between tables were established with appropriate foreign key c
 <img src="visuals/highlighted_p7.png" alt="Review Count vs Success" width="600" />
 </details>
 
-<details>
-<summary>• Engagement metrics—reviews, tips, and check-ins—are strongly correlated with each other.</summary>
-<img src="visuals/highlighted_p8.png" alt="Engagement Metric Correlation" width="600" />
-</details>
-
-<details>
-<summary>• Elite users help boost both visibility and trust, influencing performance metrics.</summary>
-<img src="visuals/highlighted_p9.png" alt="Elite Influence on Success" width="600" />
-</details>
-
 </details>
 
 
