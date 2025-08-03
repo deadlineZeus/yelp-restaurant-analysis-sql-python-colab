@@ -283,7 +283,7 @@ Sample JSON data for demonstration and table creation (data-samples/)
 
 <details> <summary id="acknowledgments"><strong>Acknowledgments</strong></summary>
     
-- Yelp for the open Dataset: https://www.yelp.com/dataset
+- Yelp for the open Dataset: https://business.yelp.com/data/resources/open-dataset/
 
 - Open-source Python libraries and their contributors
 
