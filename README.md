@@ -176,6 +176,7 @@ The relationships between tables were established with appropriate foreign key c
 <details>
 <summary id="recommendations"><strong>Recommendations</strong></summary>
 
+- Find ways to engage the customers who rate 5 star often, their further engagement will boost the overall rating. 
 - Focus on consistent engagement strategies that foster user reviews and tips across time.
 - Launch promotions and allocate staff strategically during high-engagement periods (4 PM–1 AM and November–March).
 - Develop outreach programs or loyalty incentives for elite users.
