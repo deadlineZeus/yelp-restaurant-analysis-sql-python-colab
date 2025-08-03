@@ -221,6 +221,16 @@ yelp-restaurant-analysis-sql-python-colab/
 │   ├── elite_vs_non_elite.png
 │   ├── elite_vs_non_elite_comparison.png
 │   ├── engagement_vs_rating.png
+│   ├── highlighted_p1.png
+│   ├── highlighted_p2.png
+│   ├── highlighted_p3.png
+│   ├── highlighted_p4.png
+│   ├── highlighted_p5.png
+│   ├── highlighted_p6.png
+│   ├── highlighted_p7.png
+│   ├── highlighted_p8.png
+│   ├── highlighted_p9.png
+│   ├── avg_engagement_based
 │   ├── review_count_vs_success_score.png
 │   ├── reviews_tips_vs_success.png
 │   ├── seasonal_decompose.png
