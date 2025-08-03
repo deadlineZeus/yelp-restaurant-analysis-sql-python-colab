@@ -115,11 +115,11 @@ The relationships between tables were established with appropriate foreign key c
 
 <details>
 <summary>• User activity (reviews, check-ins, tips) tends to increase with ratings, but declines for businesses rated 4.5 or 5.0.</summary>
-<img src="visuals/highlighted_p2.png" alt="Engagement vs Higher Ratings" width="600" />
+<img src="visuals/highlighted_p1.png" alt="Engagement vs Higher Ratings" width="600" />
 </details>
 
 <details>
-<summary>• Peak user activity hours are from 4 PM to 1 AM.</summary>
+<summary>• Peak user activity hours are from 4 PM to 1 AM. Get sto the lowest in early morning from 6 AM to 10 AM.</summary>
 <img src="visuals/highlighted_p3.png" alt="Peak Activity Hours" width="600" />
 </details>
 
@@ -129,7 +129,7 @@ The relationships between tables were established with appropriate foreign key c
 </details>
 
 <details>
-<summary>• Average star rating is 3.52 and average review count is 104; after removing outliers, the average review count drops to 55.</summary>
+<summary>• Average star rating is 3.52 and average review count is 104; after removing outliers, it drops to 55.</summary>
 <img src="visuals/highlighted_p5.png" alt="Average Rating and Review Counts" width="600" />
 </details>
 
