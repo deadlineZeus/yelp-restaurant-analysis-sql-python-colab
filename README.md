@@ -178,9 +178,14 @@ yelp-restaurant-analysis-sql-python-colab/
 │   └── yelp_original_dataset_url.txt
 │
 ├── visuals/
+│   ├── 35k_useful_rows.png
 │   ├── avg_engagement_based_on_rating.png
+│   ├── avg_review_count_with_outliers.png
+│   ├── avg_review_count_without_outliers.png
 │   ├── elite_vs_non_elite.png
+│   ├── elite_vs_non_elite_comparison.png
 │   ├── engagement_vs_rating.png
+│   ├── review_count_vs_success_score.png
 │   ├── reviews_tips_vs_success.png
 │   ├── seasonal_decompose.png
 │   ├── seasonal_trends.png
