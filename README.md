@@ -129,13 +129,18 @@ The relationships between tables were established with appropriate foreign key c
 </details>
 
 <details>
-<summary>• Average star rating is 3.52 and average review count is 104; after removing outliers, it drops to 55.</summary>
+<summary>• Average star rating is 3.52 and average review count is 104.; after removing outliers, it drops to 55.</summary>
 <img src="visuals/highlighted_p6.png" alt="Average Rating and Review Counts" width="600" />
 </details>
 
 <details>
+<summary>• After removing outliers, average review count drops to 55.</summary>
+<img src="visuals/highlighted_p7.png" alt="Average Rating and Review Counts" width="600" />
+</details>
+
+<details>
 <summary>• Elite users, though fewer in number, contribute a disproportionately high number of reviews.</summary>
-<img src="visuals/highlighted_p6.png" alt="Elite User Contribution" width="600" />
+<img src="visuals/highlighted_p2.png" alt="Elite User Contribution" width="600" />
 </details>
 
 <details>
