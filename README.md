@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/yelp_logo.png" alt="Yelp Logo" width="150"/>
+  <img src="assets/yelp_logo.png" alt="Yelp Logo" width="300"/>
 </p>
 
 # Yelp Restaurant Success Analysis: Data-Driven Strategies for Growth
