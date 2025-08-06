@@ -5,12 +5,16 @@
 # Yelp Restaurant Success Analysis: Data-Driven Strategies for Growth
 
 ## Project Overview
+<details open>
+<summary><strong><span style="font-size: 1.25em;">Project Overview</span></strong></summary>
 
-In today’s competitive restaurant landscape, understanding customer behavior is vital for driving growth and standing out. This project focuses on how user engagement on Yelp—through reviews, check-ins, tips, sentiment, and elite activity—relates to restaurant success.
+In today’s competitive restaurant landscape, customer engagement is not just a metric—it’s a growth driver. This project explores how user interactions on Yelp—such as reviews, check-ins, tips, sentiment, and elite user activity—correlate with restaurant success.
 
-Using Yelp’s open dataset and tools like Python and SQLite, the analysis explores correlations between user actions and business performance. You'll get to know what issue we faced with the data and how we tackled it. The flow of the project identifies patterns that influence customer satisfaction, engagement levels, and geographic trends. The output highlights key factors linked to high-rated and popular restaurants, offering a data-backed foundation for strategy.
+By analyzing a large dataset of real customer activity, the project uncovers patterns that influence ratings, visibility, and long-term performance. It reveals how and when customers engage most, which cities show the highest potential, and how elite users impact reputation and reach.
 
-The project delivers insights on what makes restaurants thrive on Yelp, where opportunities lie for expansion, and how customer interaction shapes reputation. It offers actionable recommendations for improving service, optimizing customer engagement, and selecting high-potential locations for business growth..
+The project delivers actionable insights and strategic recommendations that restaurant owners and marketers can use to improve customer experience, increase engagement, and identify high-potential locations for expansion.
+
+</details>
 
 ## Table of Contents
 
