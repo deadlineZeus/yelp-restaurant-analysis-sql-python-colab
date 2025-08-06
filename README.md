@@ -50,8 +50,8 @@ The project delivers actionable insights and strategic recommendations that `res
 <summary id="hypotheses"><strong>Hypotheses</strong></summary>
 
 - Increased user interaction leads to greater visibility and potentially better ratings.
-- Feedback sentiment metrics affect review visibility and overall performance.
-- Consistent engagement over time reflects higher customer satisfaction and long-term success.
+- Feedback sentiment metrics (e.g., "useful", "funny", "cool") significantly influence a restaurant’s performance and exposure.
+- Long-term, consistent engagement is more indicative of sustained success than temporary spikes.
 
 </details>
 
