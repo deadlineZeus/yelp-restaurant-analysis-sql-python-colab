@@ -119,6 +119,11 @@ The relationships between tables were established with appropriate foreign key c
 **_(Click to see the data behind)_**
 
 <details>
+<summary>• Out of 150k businesses, 35k are open restaurants.</summary>
+<img src="visuals/highlighted_p8.png" alt="Open Restaurants Overview" width="600" />
+</details>
+
+<details>
 <summary>• Restaurants rated 4.0 stars show the highest user engagement.</summary>
 <img src="visuals/highlighted_p1.png" alt="Restaurants with 4.0 Stars Engagement" width="600" />
 </details>
@@ -134,17 +139,12 @@ The relationships between tables were established with appropriate foreign key c
 </details>
 
 <details>
-<summary>• Out of 150k businesses, 35k are open restaurants.</summary>
-<img src="visuals/highlighted_p8.png" alt="Open Restaurants Overview" width="600" />
-</details>
-
-<details>
-<summary>• Average star rating is 3.52 and average review count is 104.; after removing outliers, it drops to 55.</summary>
+<summary>• Average star rating is 3.52 and average review count is as high as 104 per each restaurant.</summary>
 <img src="visuals/highlighted_p6.png" alt="Average Rating and Review Counts" width="600" />
 </details>
 
 <details>
-<summary>• After removing outliers, average review count drops to 55.</summary>
+<summary>• However, after removing outliers, average review count drops down to just 55.</summary>
 <img src="visuals/highlighted_p7.png" alt="Average Rating and Review Counts" width="600" />
 </details>
 
