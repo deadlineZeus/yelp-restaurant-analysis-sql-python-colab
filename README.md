@@ -12,7 +12,7 @@ In today’s competitive restaurant landscape, customer engagement is not just a
 
 By analyzing a large dataset of customer activity, the project uncovers patterns that influence ratings, visibility, and long-term performance. It reveals how and `when` customers engage most, `which` cities show the highest potential, and `how` elite users impact reputation and reach.
 
-The project delivers actionable insights and strategic recommendations that `restaurant owners` and `marketing tram` can use to improve customer experience, increase engagement, and identify high-potential locations for expansion.
+The project delivers actionable insights and strategic recommendations that `restaurant owners` and `marketing team` can use to improve customer experience, increase engagement, and identify high-potential locations for expansion.
 
 </details>
 
