@@ -4,15 +4,14 @@
 
 # Yelp Restaurant Success Analysis: Data-Driven Strategies for Growth
 
-## Project Overview
 <details open>
-<summary><strong><span style="font-size: 1.25em;">Project Overview</span></strong></summary>
+<summary><strong><span style="font-size: 1.25em;">Overview and Executive Summary</span></strong></summary>
 
-In today’s competitive restaurant landscape, customer engagement is not just a metric—it’s a growth driver. This project explores how user interactions on Yelp—such as `reviews`, `check-ins`, `tips`, sentiment, and elite user activity—correlate with restaurant success.
+In today’s competitive restaurant landscape, customer engagement is not just a metric—it’s a growth driver. This project investigates how user interactions on Yelp—such as reviews, check-ins, tips, sentiment tags, and elite user activity—correlate with restaurant success.
 
-By analyzing a large dataset of customer activity, the project uncovers patterns that influence ratings, visibility, and long-term performance. It reveals how and `when` customers engage most, `which` cities show the highest potential, and `how` elite users impact reputation and reach.
+By analyzing real customer behavior across thousands of businesses, the project uncovers patterns that shape visibility, ratings, and long-term performance. It highlights when customers are most active, which cities show the highest potential for growth, and how influential elite users are in driving attention and trust.
 
-The project delivers actionable insights and strategic recommendations that `restaurant owners` and `marketing team` can use to improve customer experience, increase engagement, and identify high-potential locations for expansion.
+The project delivers strategic insights and actionable recommendations that restaurant owners, marketing teams, and growth strategists can apply to improve customer experience, increase engagement, and identify high-opportunity markets for expansion.
 
 </details>
 
