@@ -35,7 +35,7 @@ The project delivers actionable insights and strategic recommendations that `res
 
 ---
 
-<<details>
+<details>
 <summary id="research-objectives"><strong>Research Objectives</strong></summary>
 
 - Quantify the correlation between user engagement (reviews, tips, check-ins) and restaurant ratings or review counts.
