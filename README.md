@@ -8,11 +8,11 @@
 <details open>
 <summary><strong><span style="font-size: 1.25em;">Project Overview</span></strong></summary>
 
-In today’s competitive restaurant landscape, customer engagement is not just a metric—it’s a growth driver. This project explores how user interactions on Yelp—such as reviews, check-ins, tips, sentiment, and elite user activity—correlate with restaurant success.
+In today’s competitive restaurant landscape, customer engagement is not just a metric—it’s a growth driver. This project explores how user interactions on Yelp—such as `reviews`, `check-ins`, `tips`, sentiment, and elite user activity—correlate with restaurant success.
 
-By analyzing a large dataset of customer activity, the project uncovers patterns that influence ratings, visibility, and long-term performance. It reveals how and when customers engage most, which cities show the highest potential, and how elite users impact reputation and reach.
+By analyzing a large dataset of customer activity, the project uncovers patterns that influence ratings, visibility, and long-term performance. It reveals how and `when` customers engage most, `which` cities show the highest potential, and `how` elite users impact reputation and reach.
 
-The project delivers actionable insights and strategic recommendations that restaurant owners and marketers can use to improve customer experience, increase engagement, and identify high-potential locations for expansion.
+The project delivers actionable insights and strategic recommendations that `restaurant owners` and `marketing tram` can use to improve customer experience, increase engagement, and identify high-potential locations for expansion.
 
 </details>
 
