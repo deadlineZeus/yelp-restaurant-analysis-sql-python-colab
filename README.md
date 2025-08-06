@@ -180,14 +180,26 @@ The relationships between tables were established with appropriate foreign key c
 <details>
 <summary id="recommendations"><strong>Recommendations</strong></summary>
 
-- Find ways to engage the customers who rate 5 star often, their further engagement will boost the overall rating. Because, currently we're missing out on lot of potential 5 star reviews for those customers whom we have delivered the best.
-- Focus on consistent engagement strategies that foster user reviews and tips across time.
-- Launch promotions and allocate staff strategically during high-engagement periods (Time-wise it is 4 PM–1 AM on a daily basis and November–March on a seasonal manner).
-- Develop outreach programs or loyalty incentives for elite users as, deapite being small in numbers, they hold disproportionate share in our overall revenue generation and decent rating maintainance.
-- Target cities with high success scores for expansion or new store openings.
-- Use detailed feedback analysis to improve service quality and customer experience. We can ask for reviews and experience while checking out or tipping.
-- Encourage review formats that prompt “useful”, “funny”, and “cool” votes. Also we can make it easy for them to share their engagement activity to share on their social media platforms in a fun way i.e Superfan badge for them on our Facebook/Instagram page.
-- For underperforming locations, apply localized sentiment and engagement metrics to diagnose service gaps.
+<br>
+
+- **Build targeted loyalty and recognition programs for elite users**, who contribute disproportionately to reviews and visibility.  
+  &nbsp;&nbsp;↳ Offer exclusive perks, early access, or social media spotlights to retain their advocacy.
+
+- **Encourage repeat engagement from satisfied 5-star customers** by prompting reviews at key touchpoints (e.g., checkout, tipping).  
+  &nbsp;&nbsp;↳ Many happy customers remain silent—this is untapped potential.
+
+- **Guide users to write high-quality reviews** that receive “useful”, “funny”, or “cool” votes to increase visibility.  
+  &nbsp;&nbsp;↳ Introduce playful badges (e.g., *Superfan of the Week*) and allow users to share reviews on social media.
+
+- **Time operations and campaigns around peak engagement periods**:  
+  &nbsp;&nbsp;↳ Daily: 4 PM – 1 AM  
+  &nbsp;&nbsp;↳ Seasonal: November to March
+
+- **Target expansion in high-performing cities** such as Philadelphia, Tampa, Tucson, and Indianapolis.  
+  &nbsp;&nbsp;↳ These metros show high potential based on review volume, consistency, and ratings.
+
+- **Use localized sentiment and engagement data to improve underperforming locations**.  
+  &nbsp;&nbsp;↳ Apply insights to revise service, staff training, menu, or environment where necessary.
 
 </details>
 
